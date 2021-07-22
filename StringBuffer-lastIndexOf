@@ -1,0 +1,36 @@
+package com.company;
+
+import com.sun.jdi.Value;
+
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in =new Scanner(System.in);
+        System.out.print("Enter the string: ");
+        String string =in.nextLine();
+        StringBuffer stringBuffer=new StringBuffer(string);
+        System.out.print("Enter the character to get the last index of it : ");
+        String character=in.nextLine();
+        System.out.println("The "+character+" is at "+stringBuffer.lastIndexOf(character));
+
+
+
+
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
